@@ -4,22 +4,47 @@ body{
     font-style: normal;
 
     display: flex;
-    justify-content: center;
-    
-    background-color:chocolate;
+    justify-content: space-around;
+   background-color:black;
 }
 
 .container1{
-    width: 50vw;
+    width: 35vw;
+    height: 45vw;
     border: 2px solid white;
     display: flex;
     justify-content: center;
+    border-radius: 20px;
+    background-color: chocolate;
+    color: black;
+    
 }
 .container2{
-    width: 50vw;
+    width: 35vw;
+    height: 28vw;
     border: 2px solid white;
     display: flex;
     justify-content: center;
+
+    border-radius: 20px;
+    background-color: chocolate;
+    color: black;
+    
+}
+
+.btnenviar{
+    background-color: #7a7c80;
+    padding: 16px 24px 16px 24px;
+    border-radius: 20px;
+    border: 1px solid #0a0d11;
+    color: white;
+    margin-left: 16px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
 }
 
 
