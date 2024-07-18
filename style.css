@@ -5,42 +5,65 @@ body{
 
     display: flex;
     justify-content: space-around;
-   background-color:black;
+    align-items: flex-start;
+    
+     background-image: url(img/726447.jpg);
 }
 
+input[type=text],[type=email] ,[type=number] , [type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #9ca19d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #9ca19d;
+  }
+
+
+
 .container1{
-    width: 35vw;
-    height: 45vw;
+    width: 25vw;
+    height: 60vw;
     border: 2px solid white;
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    background-color: chocolate;
-    color: black;
+    background-image: url(img/726447.jpg);
     
+    color: white;
+
 }
 .container2{
     width: 35vw;
-    height: 28vw;
+    height: 35vw;
     border: 2px solid white;
     display: flex;
     justify-content: center;
-
+    background-image: url(img/726447.jpg);
     border-radius: 20px;
-    background-color: chocolate;
-    color: black;
-    
-}
 
-.btnenviar{
-    background-color: #7a7c80;
-    padding: 16px 24px 16px 24px;
-    border-radius: 20px;
-    border: 1px solid #0a0d11;
     color: white;
-    margin-left: 16px;
 
 }
+
+
 
 .form{
     display: flex;
